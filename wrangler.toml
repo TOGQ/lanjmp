@@ -1,0 +1,11 @@
+name = 'lanjmp'
+main = "worker.js"
+compatibility_date = "2024-11-11"
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
+[[kv_namespaces]]
+binding = "NAS_LINK"
+id = "23ec2086598144479d96a94ac65a4665"
+
